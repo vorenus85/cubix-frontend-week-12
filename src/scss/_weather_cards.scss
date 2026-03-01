@@ -11,10 +11,15 @@
 .weather-card {
   width: 100%;
   min-height: 250px;
+  text-align: center;
   border-radius: var(--weather-card-brds);
   background: var(--secondary-color);
   padding: var(--gutter);
   border: 3px solid var(--primary-color);
   color: #fff;
   font-size: 1.1rem;
+
+  p {
+    font-size: 48px;
+  }
 }
